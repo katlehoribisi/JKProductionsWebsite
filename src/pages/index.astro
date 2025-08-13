@@ -25,34 +25,43 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'See Prices!',
+        href: '/pricing',
         target: '_blank',
-        icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Learn more', href: 'src/assets/RateCard.pdf' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
+
+
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white"> Astro 5.0</span> + Tailwind CSS
+        Sound that <span class="hidden xl:inline">tells your story</span>
+      <!-- <span class="text-accent dark:text-white"></span> -->
     </Fragment>
+
+
+    Joshua Kazhila Productions offers a suite of tailored audio production
+services designed to help your station and brand sound professional
+without breaking the bank. From concept to final mix, we handle
+everything with creativity and excellence.
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
-        + Tailwind CSS.</span
+        <span class="font-semibold"> Joshua Kazhila Productions</span> offers a suite of tailored audio production
+        services designed to help your station and brand sound professional
+        without breaking the bank. From concept to final mix, we handle
+        everything with creativity and excellence.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
+      <!-- <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      Blogs. -->
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <!-- <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" /> -->
 
   <!-- Features Widget *************** -->
 
@@ -102,7 +111,7 @@ const metadata = {
   />
 
   <!-- Content Widget **************** -->
-
+<!-- 
   <Content
     isReversed
     tagline="Inside template"
@@ -137,11 +146,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isAfterContent
     items={[
       {
@@ -168,17 +177,17 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
       alt: 'Blueprint Image',
     }}
-  >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+  > -->
+    <!-- <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent
     items={[
@@ -206,17 +215,17 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Astronauts Image',
     }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
+  > -->
+    <!-- <Fragment slot="content">Designed to foster growth and success.</Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     title="Get your dream website up and running in no time with AstroWind."
     items={[
       {
@@ -246,14 +255,14 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    title="Some Stuff"
+    subtitle="Some other stuff you could add right here"
+    tagline="Tag heading"
     items={[
       {
         title: 'Headers',
@@ -289,22 +298,22 @@ const metadata = {
         description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
         icon: 'flat-color-icons:currency-exchange',
       },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
+      // {
+      //   title: 'Testimonial',
+      //   description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
+      //   icon: 'flat-color-icons:voice-presentation',
+      // },
+      // {
+      //   title: 'Contact',
+      //   description:
+      //     'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
+      //   icon: 'flat-color-icons:business-contact',
+      // },
+      // {
+      //   title: 'Footers',
+      //   description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
+      //   icon: 'flat-color-icons:database',
+      // },
     ]}
   >
     <Fragment slot="bg">
@@ -376,7 +385,7 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+  <!-- <CallToAction
     actions={[
       {
         variant: 'primary',
@@ -395,5 +404,5 @@ const metadata = {
       Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
       waste more time! :P
     </Fragment>
-  </CallToAction>
+  </CallToAction> -->
 </Layout>
