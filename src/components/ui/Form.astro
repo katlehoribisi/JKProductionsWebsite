@@ -1,12 +1,13 @@
 ---
 import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
-import { actions } from "astro:actions";
+import { actions } from 'astro:actions';
+// import { actions } from "astro:actions";
 
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
 
-<form action={actions.send} method="post">
+<form action={actions.send} method="post" data-netlify="true">
   {
     inputs &&
       inputs.map(
@@ -86,3 +87,4 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 </form>
+
