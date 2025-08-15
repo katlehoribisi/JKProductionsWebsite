@@ -1,3 +1,5 @@
+export const prerender = false
+
 import { ActionError, defineAction } from 'astro:actions';
 import { Resend } from 'resend';
 
